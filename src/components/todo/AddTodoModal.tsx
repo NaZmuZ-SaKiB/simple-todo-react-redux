@@ -76,6 +76,10 @@ const AddTodoModal = ({ todo, children }: TAddTodoModalProps) => {
         },
       });
     }
+
+    setTask("");
+    setDescription("");
+    setPriority("HIGH");
   };
 
   return (
